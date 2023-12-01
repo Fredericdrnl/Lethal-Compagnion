@@ -9,5 +9,5 @@ class On_ReadyEvent(commands.Cog):
     async def on_ready(self):
         print("[INFO] Bot is ready !")
 
-def setup(bot):
-    bot.add_cog(On_ReadyEvent(bot))
+async def setup(bot):
+    await bot.add_cog(On_ReadyEvent(bot))
