@@ -27,8 +27,8 @@ Donner le lien + profil pour installer le jeu avec les mods multis<br/>
 ## Bestiaire
 Commande qui permet de :
 <ol>
-    <li>Récupérer un monstre souhaité</li>
-    <li>Récupérer un objet et son coût</li>
+    <li>Récupérer les détails du monstre souhaité</li><img src = "https://imgs.search.brave.com/17C5XfA_3tgJcADNz_kq2SlhWNsfZpMaSu0aPEXk93I/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/cGNpbnZhc2lvbi5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjMvMTEvTGV0aGFs/LUNvbXBhbnktRm9y/ZXN0LUtlZXBlci1G/ZWF0dXJlZC1JbWFn/ZS5qcGc_dz03NTAm/cmVzaXplPTEyMDAs/Njc1" title = "geant" alt = "geant">
+    <li>Récupérer les détails d'un objet et son coût</li><img src = "https://imgs.search.brave.com/GU9i-l_bm_tDrx_Z2ddxVA9aHK3VNVx6G3-xiZmPjMw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMwLmdhbWVyYW50/aW1hZ2VzLmNvbS93/b3JkcHJlc3Mvd3At/Y29udGVudC91cGxv/YWRzLzIwMjMvMTEv/bGV0aGFsLWNvbXBh/bnktYmVzdC1pdGVt/cy10by1zZWxsLWFw/cGFyYXR1cy5qcGc" title = "batterie" alt = "batterie">
 </ol>
 
 
