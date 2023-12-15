@@ -1,6 +1,8 @@
 import os
 import discord
 from bot import LethalCompagnion
+import asyncio
+
 
 class Main():
     @staticmethod
@@ -20,4 +22,5 @@ class Main():
             bot.run(open("./src/bot/token.txt", "r").readline())
 
 if __name__ == '__main__':
-    Main.run()
+    asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+    asyncio.run(Main.run())

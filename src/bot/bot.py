@@ -13,3 +13,10 @@ class LethalCompagnion(commands.Bot):
             if fils.endswith(".py"):
                 await self.load_extension("events." + fils[:-3])
                 print(fils[:-3] + " event is UP !")
+
+        
+        print("====== COMMANDS ======")
+        for fils in os.listdir("./src/bot/commands"):
+            if fils.endswith(".py"):
+                await self.load_extension("commands." + fils[:-3])
+                print(fils[:-3] + " event is UP !")
