@@ -1,2 +1,4 @@
 token.txt
 *.pyc
+src/bot/events/__pycache__/On_ready.cpython-311.pyc
+src/bot/__pycache__/bot.cpython-311.pyc
