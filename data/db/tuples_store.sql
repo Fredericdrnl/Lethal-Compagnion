@@ -1,0 +1,15 @@
+INSERT INTO Store (id_store,name_store,entry_store,cost_store,weight_store,conductive_store,battery_store) VALUES
+(1,"Boombox","Boomboxes are portable music players that emit a selection of five different songs","","","","","")
+(2,"Extension Ladder","The extension ladder can reach as high as nine meters","","","","","")
+(3,"Flashlight","Flashlights are tools that emit light in a conical shape in front of the player, aiding exploration. Fully charged flashlights last for 140 seconds.","","","","","")
+(4,"Jetpack","This device will get you around anywhere! Just use it responsibly!","","","","","")
+(5,"Lockpicker","Lockpickers are tools used to gain access to locked doors","","","","","")
+(6,"Pro-Flashlight","With an extra battery life and even brighter bulb, your colleagues can never leave you in the dark again!","","","","","")
+(7,"Radar Booster","Use the SWITCH command before the radar booster's name to view it on the main monitor. It must be activated. Use the PING command before the radar booster's name to play a special sound from the device.","","","","","")
+(8,"Shovel","For self-defense","","","","","")
+(9,"Spray Paint","pray paint is a tool item that can be used to paint walls and floors","","","","","")
+(10,"Stun Grenade","Stun grenades are explosive weapons intended to disorient entities","","","","","")
+(11,"TZP-Inhalant","This safe and legal medicine can be administered to see great benefits to your performance on the job","","","","","")
+(12,"Walkie-Talkie","Useful for keeping in touch! Hear other players when the walkie talkie is in your inventory. Must be in your hand and pressed down to transmit voice","","","","","")
+(13,"Zap Gun","The most specialized self-protective equipment, capable of sending upwards of 80 000 volts","","","","","")
+

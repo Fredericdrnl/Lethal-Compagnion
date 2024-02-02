@@ -18,7 +18,11 @@ CREATE TABLE Moons(
     id_moon SERIAL PRIMARY KEY,
     name_moon VARCHAR(500),
     difficulty VARCHAR(500),
-    cost_moon INTEGER
+    cost_moon INTEGER,
+    weather VARCHAR(500),
+    default_layout VARCHAR(500),
+    min_scrap INTEGER,
+    max_scrap INTEGER
 )
 
 CREATE TABLE Store(
@@ -26,5 +30,7 @@ CREATE TABLE Store(
     name_store VARCHAR(500),
     entry_store VARCHAR(500),
     cost_store INTEGER,
-    weight INTEGER,
+    weight_store INTEGER,
+    conductive_store VARCHAR(500),
+    battery_store VARCHAR(500),
 )
