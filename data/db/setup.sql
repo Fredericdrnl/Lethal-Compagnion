@@ -10,8 +10,11 @@ CREATE TABLE Scrap(
     id_scrap SERIAL PRIMARY KEY,
     name_scrap VARCHAR(500),
     entry_scrap VARCHAR(500),
-    cost_scrap INTEGER,
+    min_cost_scrap INTEGER,
+    max_cost_scrap INTEGER,
     weight INTEGER,
+    conductive_scrap BOOLEAN,
+    two_handed BOOLEAN
 )
 
 CREATE TABLE Moons(
