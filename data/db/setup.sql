@@ -3,7 +3,8 @@ CREATE TABLE Monsters(
     name_monster VARCHAR(50),
     entry_monster VARCHAR(500),
     particularity VARCHAR(500),
-    strategy VARCHAR(500)
+    strategy VARCHAR(500),
+    picture_monster VARCHAR(500)
 )
 
 CREATE TABLE Scrap(
@@ -25,7 +26,8 @@ CREATE TABLE Moons(
     weather VARCHAR(500),
     default_layout VARCHAR(500),
     min_scrap INTEGER,
-    max_scrap INTEGER
+    max_scrap INTEGER,
+    picture_moons VARCHAR(500)
 )
 
 CREATE TABLE Store(
@@ -36,4 +38,5 @@ CREATE TABLE Store(
     weight_store INTEGER,
     conductive_store VARCHAR(500),
     battery_store VARCHAR(500),
+    picture_store VARCHAR(500)
 )
