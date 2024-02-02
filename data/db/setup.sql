@@ -12,9 +12,10 @@ CREATE TABLE Scrap(
     entry_scrap VARCHAR(500),
     min_cost_scrap INTEGER,
     max_cost_scrap INTEGER,
-    weight INTEGER,
+    weight_scrap INTEGER,
     conductive_scrap BOOLEAN,
-    two_handed BOOLEAN
+    two_handed BOOLEAN,
+    picture_scrap VARCHAR(500)
 )
 
 CREATE TABLE Moons(
