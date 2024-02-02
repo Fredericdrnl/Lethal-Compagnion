@@ -1,0 +1,91 @@
+[{
+    "name_monster" : "Eyeless Dog",
+    "entry_monster" : "Eyeless Dogs, colloquially known as just 'Dogs', are large aggressive pack hunters that roam outdoors.", 
+    "particularity" : "Blind, Exceptional Hearing",
+    "Strategy" : "Be Quiet"},
+{
+    "name_monster": "Baboon Hawk", 
+    "entry_monster": "Baboon Hawks are a primate of the family Cercopithecidae. They are hunchbacked but can stand up to 8 feet on average.", 
+    "particularity": "", 
+    "Strategy": "Try to make trips to/from The Ship in groups. They won't attack players unless they outnumber them"},
+{
+    "name_monster": "Circuit Bees", 
+    "entry_monster": "Circuit Bees are highly defensive. They will leave the nest to attack any creature that comes within several meters", 
+    "particularity": "", 
+    "Strategy": "Taking a Circuit Bees' hive is almost always worth it if you have time, as it is valued at around 100"},
+{
+    "name_monster": "Manticoil", 
+    "entry_monster": "Manticoils are passive ambient birds found outdoors.", 
+    "particularity": "", 
+    "Strategy": "They're useless"},
+{
+    "name_monster": "Roaming Locusts", 
+    "entry_monster": "Roaming Locusts are small harmless insects found outdoors in a spherical swarm.", 
+    "particularity": "", 
+    "Strategy": "They're useless"},
+{
+    "name_monster": "Earth Leviathan", 
+    "entry_monster": "They seem to behave as predators. It's speculated they can burrow as far as 40 meters underground, judging by the incredible excavations they can leave behind.", 
+    "particularity": "Earth Leviathans will spawn during Nighttime on moons in which they appear, burrowed in the ground.", 
+    "Strategy": "The presence of an Earth Leviathan can be ascertained by listening for underground groaning sounds and avoid staying too close to your teammates "},
+{
+    "name_monster": "Forest Keepers", 
+    "entry_monster": "Forest Keepers, colloquially known as Giants, are enormous hostile entities found roaming outdoors.", 
+    "particularity": "Not a good view", 
+    "Strategy": "Staying crouched, silent"},
+{
+    "name_monster": "Bracken", 
+    "entry_monster": "The Bracken, or sometimes called Flowerman, is a dangerous entity in lethal company.", 
+    "particularity": "Brackens have 3 possible states: sneaking, evading, and enraged.", 
+    "Strategy": "Zap guns are effective against Brackens, making them possible to kill if paired with a player holding a shovel."},
+{
+    "name_monster": "Bunker Spider", 
+    "entry_monster": "Bunker Spiders produce silk and lay it around their chosen nesting area, then wait for it to be tripped on. They can be seen waiting on walls, often over doorways where prey could enter unaware", 
+    "particularity": "The Bunker Spider will not attack while it's in its 'preparation phase', during which it will place webs within its territory", 
+    "Strategy": " a player can easily walk past spider territory if they’ve arrived early enough."},
+{
+    "name_monster": "Coil-Head", 
+    "entry_monster": "Coil-Heads' visual appearance is that of a bloody mannequin with its head connected by a spring", 
+    "particularity": "can only move when it is outside the line of sight of every player", 
+    "Strategy": "One member keep watch on it as others loot"},
+{
+    "name_monster": "Hoarding Bug", 
+    "entry_monster": "They are large, social insects. While often found living alone, they have been found to share their nests with members of their own species", 
+    "particularity": "Hoarding Bugs are skittish by default and will not attack players until provoked. They will search the map for scrap and bring it back to a pre-defined nest area", 
+    "Strategy": "Trade items with them"},
+{
+    "name_monster": "Hygrodere", 
+    "entry_monster": "Hygrodere are drawn to heat and oxygen and can detect it from seemingly anywhere", 
+    "particularity": "A Hygrodere will move extremely slowly around the map", 
+    "Strategy": "Just run faster"},
+{
+    "name_monster": "Jester", 
+    "entry_monster": "You cant hide from it, just evacuate THERE'S NO FREAKING SCIENTIFIC RECORD", 
+    "particularity": "The Jester initiates a random timer, varying from 12 to 28 seconds, which determines the duration before it switches to its cranking state", 
+    "Strategy": "When its cranking or chasing begins, players should immediately get to the exit"},
+{
+    "name_monster": "Nutcracker", 
+    "entry_monster": "The guardians of the house.", 
+    "particularity": "The Nutcracker spawns carrying a Shotgun", 
+    "Strategy": "Killing Nutcrackers is almost always worth it due to the power of the shotgun"},
+{
+    "name_monster": "Snare Flea", 
+    "entry_monster": "The Snare Flea thrives in dark, warm areas", 
+    "particularity": "Snare Fleas wait on the ceiling of any room/corridor. Once a player is within range or below, they will proceed to wrap around their head, obstructing their view, muffling and distorting their voice", 
+    "Strategy": "They die in 2 Shovel hits"},
+{
+    "name_monster": "Spore lizards", 
+    "entry_monster": "Spore Lizards have a very timid temperament, avoiding confrontation if at all possible", 
+    "particularity": "Spore Lizards are passive entities, only attacking players when threatened or cornered", 
+    "Strategy": "Best option is to simply respect it and leave it alone"},
+{
+    "name_monster": "Thumper", 
+    "entry_monster": " They are deaf and rely entirely on sight", 
+    "particularity": "Just dangerous", 
+    "Strategy": "They take 4 Shovel hits to kill and kill an employee in 3 quick bites"},
+{
+    "name_monster": "Ghost Girl", 
+    "entry_monster": "Cannot currently be scanned", 
+    "particularity": "The Ghost Girl is one of the most consistently difficult threats a team can face. She is unique in that, once spawned in, there is no way to avoid interacting with her; she will always pick one employee to haunt.", 
+    "Strategy": "only one player is affected at a time"}
+]
