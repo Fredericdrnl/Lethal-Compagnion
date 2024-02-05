@@ -1,5 +1,5 @@
 import flask
-from data.data import *
+from model.data import *
 
 app = flask.Flask(__name__)
 app.config['DEBUG'] = True
