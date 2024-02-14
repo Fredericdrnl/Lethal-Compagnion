@@ -5,7 +5,7 @@ CREATE TABLE Monsters(
     particularity VARCHAR(500),
     strategy VARCHAR(500),
     picture_monster VARCHAR(500)
-)
+);
 
 CREATE TABLE Scrap(
     id_scrap SERIAL PRIMARY KEY,
@@ -17,7 +17,7 @@ CREATE TABLE Scrap(
     conductive_scrap BOOLEAN,
     two_handed BOOLEAN,
     picture_scrap VARCHAR(500)
-)
+);
 
 CREATE TABLE Moons(
     id_moon SERIAL PRIMARY KEY,
@@ -29,7 +29,7 @@ CREATE TABLE Moons(
     min_scrap INTEGER,
     max_scrap INTEGER,
     picture_moons VARCHAR(500)
-)
+);
 
 CREATE TABLE Store(
     id_store SERIAL PRIMARY KEY,
@@ -40,4 +40,4 @@ CREATE TABLE Store(
     conductive_store VARCHAR(500),
     battery_store VARCHAR(500),
     picture_store VARCHAR(500)
-)
+);
