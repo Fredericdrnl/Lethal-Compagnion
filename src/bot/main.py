@@ -4,6 +4,7 @@ from bot import LethalCompagnion
 import asyncio
 from dotenv import load_dotenv
 
+load_dotenv() 
 
 class Main():
     @staticmethod
@@ -20,7 +21,7 @@ class Main():
             intent.members = True
             intent.message_content = True
             bot = LethalCompagnion(intent)
-            bot.run(os.getenv("DISC_TOKEN").readline())
+            bot.run(os.getenv("DISC_TOKEN"))
 
 if __name__ == '__main__':
     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
