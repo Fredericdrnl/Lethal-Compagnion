@@ -1,7 +1,6 @@
 import discord
 from discord.ext import commands
 import requests
-import json
 
 # ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ #
 # ■■■■■■■■■■■■■■■■■■■■■■■ Bestiary ■■■■■■■■■■■■■■■■■■■■■■■■ #
@@ -11,9 +10,9 @@ class BestiaryCommand(commands.Cog):
         self.bot = bot
 
     @commands.command()
-    async def bestiary(self, ctx):
+    async def bestiary(self, ctx, monsterName : str):
         """Show information of a monster."""
-        response = requests.get("http://127.0.0.1:5000/Monsters/test")
+        response = requests.get("http://127.0.0.1:5000/Monsters/" + monsterName)
         # Vérifier si la requête a réussi (code de statut HTTP 200)
         if response.status_code == 200:
             data = response.json()
@@ -27,13 +26,7 @@ class BestiaryCommand(commands.Cog):
         else:
             # Si la requête a échoué, imprimer le code de statut HTTP
             embedBestiary = discord.Embed(title="Le monstre donné n'existe pas")
-
-        ctx.send(embed=embedBestiary)
-
-        
             
-
-        
         embedBestiary.set_thumbnail(url=data[0][5])
         
         await ctx.send(embed=embedBestiary)
