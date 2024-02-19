@@ -13,20 +13,35 @@ conn = psycopg2.connect(database=os.getenv('DB_NAME'),
 
 cursor = conn.cursor()
 
-def getMonster():
-    monsterName = "Eyeless Dog"
+def getMonsters():
+    cursor.execute("SELECT * FROM Monsters")
+    return(cursor.fetchall())
+
+def getMonster(monsterName : str):
     cursor.execute("SELECT * FROM Monsters WHERE name_monster ILIKE %s", (monsterName,) )
     return(cursor.fetchall())
 
+def getMoons():
+    cursor.execute('SELECT * FROM Moons')
+    return(cursor.fetchall())
+
 def getMoon(moonName : str):
-    cursor.execute('SELECT * FROM Monsters WHERE name_moon ILIKE %s', (moonName,))
+    cursor.execute('SELECT * FROM Moons WHERE name_moon ILIKE %s', (moonName,))
+    return(cursor.fetchall())
+
+def getItems():
+    cursor.execute("SELECT * FROM Scrap")
     return(cursor.fetchall())
 
 def getScrap(scrapName : str):
     cursor.execute('SELECT * FROM Monsters WHERE name_scrape ILIKE %s', (scrapName,))
     return(cursor.fetchall())
 
-def getStore(storeName : str):
+def getStoreItems():
+    cursor.execute('SELECT * FROM Store')
+    return(cursor.fetchall())
+
+def getStoreItem(storeName : str):
     cursor.execute('SELECT * FROM Store WHERE name_store ILIKE %s', (storeName,))
     return(cursor.fetchall())
 
