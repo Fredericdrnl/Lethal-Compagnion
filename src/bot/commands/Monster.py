@@ -3,7 +3,7 @@ from discord.ext import commands
 import requests
 
 # ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ #
-# ■■■■■■■■■■■■■■■■■■■■■■■ Bestiary ■■■■■■■■■■■■■■■■■■■■■■■■ #
+# ■■■■■■■■■■■■■■■■■■■■■■■ Monster ■■■■■■■■■■■■■■■■■■■■■■■■■ #
 # ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ #
 class BestiaryCommand(commands.Cog):
     def __init__(self, bot : commands.Bot) -> None:
