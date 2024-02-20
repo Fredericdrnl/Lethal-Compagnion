@@ -11,7 +11,7 @@ class MonstersCommand(commands.Cog):
 
     @commands.command()
     async def monsters(self, ctx):
-        """Show information of a monster."""
+        """Show information of all Monsters."""
         response = requests.get("http://127.0.0.1:5000/Monsters/")
         # Vérifier si la requête a réussi (code de statut HTTP 200)
         if response.status_code == 200:
@@ -19,7 +19,6 @@ class MonstersCommand(commands.Cog):
             embedMonsters = discord.Embed(title="All monster list",
                             colour=discord.Colour.from_rgb(240, 128, 128),
                             )
-            print(data)
             for i in range(0, len(data) - 1):
                 embedMonsters.add_field(name=data[i][1], value=data[i][2], inline=False)
         else:
