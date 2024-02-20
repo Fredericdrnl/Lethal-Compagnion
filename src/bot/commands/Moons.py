@@ -11,7 +11,7 @@ class MoonsCommand(commands.Cog):
 
     @commands.command()
     async def moons(self, ctx):
-        """Show information of a monster."""
+        """Show information of all Moons."""
         response = requests.get("http://127.0.0.1:5000/Moons/")
         # Vérifier si la requête a réussi (code de statut HTTP 200)
         if response.status_code == 200:
@@ -19,7 +19,6 @@ class MoonsCommand(commands.Cog):
             embedMoons = discord.Embed(title="All moons list",
                             colour=discord.Colour.from_rgb(240, 128, 128),
                             )
-            print(data)
             for i in range(0, len(data)):
                 embedMoons.add_field(name=data[i][1], value="Difficulty : " + data[i][2], inline=False)
         else:
