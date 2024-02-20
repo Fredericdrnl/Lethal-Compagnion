@@ -1,5 +1,6 @@
 CREATE TABLE Monsters(
     id_monster SERIAL PRIMARY KEY,
+    underscore VARCHAR(50),
     name_monster VARCHAR(50),
     entry_monster VARCHAR(500),
     particularity VARCHAR(500),
@@ -9,6 +10,7 @@ CREATE TABLE Monsters(
 
 CREATE TABLE Scrap(
     id_scrap SERIAL PRIMARY KEY,
+    underscore VARCHAR(500),
     name_scrap VARCHAR(500),
     entry_scrap VARCHAR(500),
     min_cost_scrap INTEGER,
@@ -33,6 +35,7 @@ CREATE TABLE Moons(
 
 CREATE TABLE Store(
     id_store SERIAL PRIMARY KEY,
+    underscore VARCHAR(5000),
     name_store VARCHAR(500),
     entry_store VARCHAR(500),
     cost_store INTEGER,
