@@ -20,8 +20,8 @@ Presque tout le projet à été codée en **Python**. Nous avons utilisée la bi
 > Toutes les bibliothèques utilisée sont référencées dans le fichier requirements.py avec les versions.
 
 <div align="center">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg"width="110" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg"width="110"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"width="110" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"width="110"/>
 </div>
 
 ### **3 Commandes**
