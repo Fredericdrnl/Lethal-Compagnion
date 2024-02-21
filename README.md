@@ -1,34 +1,48 @@
-<img src = "https://imgs.search.brave.com/jDGyY8sdA9IxjuWF_geaKx-KLM-caxOKqkNuiDZJlIY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZS5qZXV4dmlkZW8u/Y29tL21lZGlhcy1z/bS8xNzAxMTAvMTcw/MTA5ODk3OC0yNzE1/LWphcXVldHRlLWF2/YW50LmpwZw" title = "lethal logo" alt = "lethal logo">
+<p  align="center">
+    <img src = "https://imgs.search.brave.com/jDGyY8sdA9IxjuWF_geaKx-KLM-caxOKqkNuiDZJlIY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZS5qZXV4dmlkZW8u/Y29tL21lZGlhcy1z/bS8xNzAxMTAvMTcw/MTA5ODk3OC0yNzE1/LWphcXVldHRlLWF2/YW50LmpwZw" title = "lethal logo" alt = "lethal logo">
+<p>
 
-### Vallart Tom / Dournel Frédéric / Fournier Benjamin
-## Le plan EN GROS
-Un bot Discord qui nous permet de récupérer des informations du jeu grâce à des commandes<br/>
-Le partage des fichiers sera fait par GitHub<br/>
-Travailler avec une branche de test pour les commandes<br/>
-Créer des commandes du style "!quota" qui donne le quota et le nombre de jours  restant<br/>
-Le code sera organisé en plusieurs dossiers : database / api / bot<br/>
+<p align="center">
+    <img src="https://img.shields.io/github/last-commit/Fredericdrnl/lethal-company-bot">
+    <img src="https://img.shields.io/github/contributors/Fredericdrnl/lethal-company-bot">
+</p>
 
+> **Auteurs :** [Frédéric DOURNEL](https://github.com/Fredericdrnl), [Benjamin FOURNIER](https://github.com/Tabooret), [Tom VALLART](https://github.com/Tom6213)
 
-# Bot-discord
-But : Récupérer les infos de Lethal Company<br/>
+### **1 Présentation du projet**
 
-## Infos sur chaque journée
-<ol>
-    <li>la lune visitée 🌑</li>
-    <li>le nombre de scrap🧰</li>
-    <li>le quota💻</li>
-    <li>le nombre de jours restant⌛️</li>
-    <li>les monstres rencontrés🧂</li>
-</ol>
+Ce projet représente la création d'un bot discord sur le jeu lethal company. Le but de ce jeu est de référencerer beaucoup d'information à propos des items, des monstres et des planètes du jeu. Nous avions comme contrainte de pouvoir conteneuriser les différentes parties de ce que fais le bot discord, c'est à dire l'API, la BDD et le bot discord.
 
-## Mods
-Donner le lien + profil pour installer le jeu avec les mods multis<br/>
+### **2 Prérequis**
 
-## Bestiaire
+Presque tout le projet à été codée en **Python**. Nous avons utilisée la bibliothèque **Discord.py** pour créer le bot, **Flask** pour créer les routes API, **Requests** pour créer des requêtes API et **Psycogs2** pour intéragir avec la base de donnée qui par ailleur est une BDD **Postgresql**.
+
+> Toutes les bibliothèques utilisée sont référencées dans le fichier requirements.py avec les versions.
+
+<div align="center">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg"width="110" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg"width="110"/>
+</div>
+
+### **3 Commandes**
 Commande qui permet de :
-<ol>
-    <li>Récupérer les détails du monstre souhaité</li><img src = "https://imgs.search.brave.com/17C5XfA_3tgJcADNz_kq2SlhWNsfZpMaSu0aPEXk93I/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/cGNpbnZhc2lvbi5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjMvMTEvTGV0aGFs/LUNvbXBhbnktRm9y/ZXN0LUtlZXBlci1G/ZWF0dXJlZC1JbWFn/ZS5qcGc_dz03NTAm/cmVzaXplPTEyMDAs/Njc1" title = "geant" alt = "geant">
-    <li>Récupérer les détails d'un objet et son coût</li><img src = "https://imgs.search.brave.com/GU9i-l_bm_tDrx_Z2ddxVA9aHK3VNVx6G3-xiZmPjMw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMwLmdhbWVyYW50/aW1hZ2VzLmNvbS93/b3JkcHJlc3Mvd3At/Y29udGVudC91cGxv/YWRzLzIwMjMvMTEv/bGV0aGFsLWNvbXBh/bnktYmVzdC1pdGVt/cy10by1zZWxsLWFw/cGFyYXR1cy5qcGc" title = "batterie" alt = "batterie">
-</ol>
+
+> Les paramètres sont les noms anglais et il y a des underscores au lieu des espaces.
+
+`- !monsters ▶️ Montre tous les monstres avec une description.`
+
+`- !monster [MonsterName] ▶️ Affiche toutes les informations à propos d'un monstre passé en paramètre.`
+
+`- !moons ▶️ Montre toutes les lunes avec leur difficulté.`
+
+`- !moon [MoonName] ▶️ Affiche toutes les informations.`
+
+`- !items" ▶️ Montre tous les items avec une description.`
+
+`- !item [ItemName] ▶️ Affiche toutes les informations à propos d'un objet.`
+
+`- !storeItems ▶️ Montre tous les items achetable dans la boutique avec une description.`
+
+`- !storeItem [StoreItemName] ▶️ Affiche toutes les informations à propos d"un objet de la boutique passé en paramètre.`
 
 
