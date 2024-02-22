@@ -53,7 +53,7 @@ Ces données que nous avons récupérées comme le nom des monstres, des objets,
 ## 1.2 - Travail en groupe
 
 Pour ce projet, nous sommes en groupe de 3, Dournel Frédéric, Vallart Tom, Fournier Benjamin.
-Nous avons utilisé différents types de communications et partage de données afin de rendre le projet à temps et fonctionnel comme Discord, GitHub, l'extension LiveShare de Visual StudioCode a été utilisé lors de la création de la base de données afin de la terminer au plus vite.
+Nous avons utilisé différents types de communications et partage de données afin de rendre le projet à temps et fonctionnel comme Discord, GitHub, l'extension LiveShare de Visual Studio Code a été utilisé lors de la création de la base de données afin de la terminer au plus vite.
 Nous avons beaucoup travaillé en présentiel lors des heures de travail prévu à cet effet.
 Lors de ce projet chaque personne du groupe a pu effectuer une tâche 
 
@@ -77,7 +77,7 @@ Le projet a débuté par une phase de planification détaillée, au cours de laq
 
 ### 2.2 - Rencontres de problèmes
 
-Le processus de développement s'est globalement bien déroulé. Cependant, nous avons rencontré quelques obstacles techniques, notamment des problèmes de latence et des erreurs de connexion avec l'API Discord, le problème d'API venait principalement du manque de connaissance sur la création d'une API, ce fut notre première création d'API, ces problèmes ont retardé légèrement notre progression.
+Le processus de développement s'est globalement bien déroulé. Cependant, nous avons rencontré quelques obstacles techniques, notamment des problèmes de latence et des erreurs de connexion avec l'API pour connecter le bot à la BDD, le problème d'API venait principalement du manque de connaissance sur la création d'une API, ce fut notre première création d'API sur python, ces problèmes ont retardé notre progression.
 
 ## 3 - Ressenti du Projet
 
@@ -93,6 +93,10 @@ Nous avons également rencontré des problèmes imprévus qui ont mis à l'épre
 Personnellement, le projet de base était un bot Discord quelque chose que je n'ai jamais fait, j'ai du apprendre 2,3 choses auprès de Frédéric qui connaissait un peu plus le sujet, j'ai appris plusieurs façon de travailler sur GitHub avec la création de branches et le suivi d'une convention de commit. Concernant la motivation, il s'agissait d'un jeu que j'ai joué et quelque chose qui pourrait être utile j'ai donc voulu réussir et terminer ce projet.
 
 #### 3.1.2 - Ressenti de Frédéric
+
+Ce projet m'a beaucoup apporté. En effet, j'ai beaucoup apprit de part la gestion de projet sur GitHub qui était une première fois pour moi. L'utilisation des Issues était nouveau pour moi et j'ai eut des difficultés à partager les issues dans le Projects pour les premières. C'était également la première fois que j'implémentais une API sur python. J'ai trouvé l'utilisation de Flask et Requests facile à comprendre. La connexion de la BDD et l'interaction avec celle-ci était une chose que j'avais déjà fais auparavant en utilisant psycogs2. Il en ait de même pour la création de Bot discord que je connaissais déjà bien.
+
+Pour conclure, Ce projet m'a beaucoup apporter en compétence de gestion d'équipe informatique mais également de compétence Technique.
 
 #### 3.1.3 - Ressenti de Tom
 
