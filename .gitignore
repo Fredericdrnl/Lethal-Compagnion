@@ -1,3 +1,5 @@
 *.pyc
 .env
 token.txt
+data
+postgres-data

@@ -2,7 +2,7 @@ import psycopg2
 from dotenv import load_dotenv
 import os
 
-load_dotenv()
+load_dotenv("../db/.env")
 
 conn = psycopg2.connect(database=os.getenv('DB_NAME'),
                         host=os.getenv('DB_HOST'),
