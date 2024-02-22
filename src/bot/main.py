@@ -1,4 +1,5 @@
 import os
+import sys
 import discord
 from bot import LethalCompagnion
 import asyncio
@@ -16,5 +17,9 @@ class Main():
         bot.run(os.getenv("DISC_TOKEN"))
 
 if __name__ == '__main__':
-    asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+    if hasattr(asyncio, 'WindowsSelectorEventLoopPolicy') and \
+        sys.platform.startswith('win'):
+         asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+    else:
+        asyncio.set_event_loop_policy(asyncio.DefaultEventLoopPolicy())
     asyncio.run(Main.run())
