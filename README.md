@@ -25,7 +25,7 @@ Presque tout le projet à été codée en **Python**. Nous avons utilisée la bi
 </div>
 
 ### **3 Commandes**
-Commande qui permet de :
+Commandes qui permet de :
 
 > Les paramètres sont les noms anglais et il y a des underscores au lieu des espaces.
 
