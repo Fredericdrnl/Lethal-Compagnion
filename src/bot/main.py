@@ -1,10 +1,13 @@
 import os
+from os.path import join, dirname
 import discord
-from bot import LethalCompagnion
 import asyncio
 from dotenv import load_dotenv
 
-load_dotenv() 
+from bot import LethalCompagnion
+
+dotenv_path = join(dirname(__file__), '..\db\.env')
+load_dotenv(dotenv_path)
 
 class Main():
     @staticmethod
