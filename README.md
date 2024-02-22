@@ -116,7 +116,7 @@ Le bot Discord permet avec une commande d'avoir les informations sur ce que l'on
 > Les paramètres sont les noms anglais et il y a des underscores au lieu des espaces.
 
 `- !helps ▶️ Afiiche toutes les commandes disponibles pour le bot discord.`
-
+-----
 `- !monsters ▶️ Montre tous les monstres avec une description.`
 
 `- !monster [MonsterName] ▶️ Affiche toutes les informations à propos d'un monstre passé en paramètre.`<br>
@@ -143,6 +143,7 @@ Le bot Discord permet avec une commande d'avoir les informations sur ce que l'on
     <img src = 'https://static.miraheze.org/lethalwiki/6/61/VType.png' title = "batterie" alt = "batterie" width = 150>
     </div>
 
+-----
 `- !storeItems ▶️ Montre tous les items achetable dans la boutique avec une description.`
 
 `- !storeItem [StoreItemName] ▶️ Affiche toutes les informations à propos d"un objet de la boutique passé en paramètre.`<br>
