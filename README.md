@@ -118,7 +118,7 @@ Le bot Discord permet avec une commande d'avoir les informations sur ce que l'on
 `- !monsters ▶️ Montre tous les monstres avec une description.`
 
 `- !monster [MonsterName] ▶️ Affiche toutes les informations à propos d'un monstre passé en paramètre.`<br>
-    `-Par exemple : !monster forest_keeper`
+    `- Par exemple : !monster forest_keeper`
     <div align="center">
     <img src = "https://imgs.search.brave.com/17C5XfA_3tgJcADNz_kq2SlhWNsfZpMaSu0aPEXk93I/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/cGNpbnZhc2lvbi5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjMvMTEvTGV0aGFs/LUNvbXBhbnktRm9y/ZXN0LUtlZXBlci1G/ZWF0dXJlZC1JbWFn/ZS5qcGc_dz03NTAm/cmVzaXplPTEyMDAs/Njc1" title = "geant" alt = "geant" width = 200>
     </div>
@@ -126,7 +126,7 @@ Le bot Discord permet avec une commande d'avoir les informations sur ce que l'on
 `- !moons ▶️ Montre toutes les lunes avec leur difficulté.`
 
 `- !moon [MoonName] ▶️ Affiche toutes les informations.`<br>
-    `-Par exemple : !moon 8-Titan `
+    `- Par exemple : !moon 8-Titan `
     <div align="center">
     <img src = "https://imgs.search.brave.com/6Ri0nq_SU96qMnM0HXCwOjZFs4mLAH1rQ1Ypf96BFbY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9wcm9n/YW1lZ3VpZGVzLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/My8xMS9GZWF0dXJl/ZC1MZXRoYWwtQ29t/cGFueS1ob3ctdG8t/aGVhbC5qcGc_Zml0/PTkwMCw1MDY" title = "moons" alt = "moons" width = 200>
     </div>
@@ -135,7 +135,7 @@ Le bot Discord permet avec une commande d'avoir les informations sur ce que l'on
 `- !items ▶️ Montre tous les items avec une description.`
 
 `- !item [ItemName] ▶️ Affiche toutes les informations à propos d'un objet.`<br>
-    `-Par exemple : !item V-Type_Engine`
+    `- Par exemple : !item V-Type_Engine`
     <div align="center">
     <img src = 'https://static.miraheze.org/lethalwiki/6/61/VType.png' title = "batterie" alt = "batterie" width = 150>
     </div>
@@ -143,7 +143,7 @@ Le bot Discord permet avec une commande d'avoir les informations sur ce que l'on
 `- !storeItems ▶️ Montre tous les items achetable dans la boutique avec une description.`
 
 `- !storeItem [StoreItemName] ▶️ Affiche toutes les informations à propos d"un objet de la boutique passé en paramètre.`<br>
-    `-Par exemple : !storeItem boombox`
+    `- Par exemple : !storeItem boombox`
     <div align="center">
     <img src = "https://imgs.search.brave.com/WULsMc8Vquumbch-q4kgNFdEO4_z1Nnqv-BUizFb5S4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vZ2FtZXJ0/YWd6ZXJvLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyMy8x/MS9MZXRoYWwtQ29t/cGFueS1Cb29tYm94/LndlYnA_cmVzaXpl/PTEwMjQsNjgyJnNz/bD0x" title = "boombox" alt = "boombox" width = 200 >
     </div>
