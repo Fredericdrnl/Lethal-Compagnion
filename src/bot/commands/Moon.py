@@ -6,16 +6,24 @@ import requests
 # ■■■■■■■■■■■■■■■■■■■■■■■ Moon ■■■■■■■■■■■■■■■■■■■■■■■■■■■■ #
 # ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ #
 class MoonCommand(commands.Cog):
+    """
+    This class create the "!moon <MoonName>" command.
+    Thanks to this command, you can see  lot of information about the moon on parameter.
+    """
     def __init__(self, bot : commands.Bot) -> None:
         self.bot = bot
 
     @commands.command()
     async def moon(self, ctx, MoonName : str):
-        """Show information of a Moon."""
+        """
+        Show information of a Moon.
+
+        Args:
+            MoonName (str) : Moon which show her information.
+        """
         response = requests.get(f"http://127.0.0.1:5000/Moons/{MoonName}")
-        # Vérifier si la requête a réussi (code de statut HTTP 200)
         data = response.json()
-        if response.status_code == 200:
+        if data != None or data != []:
             embedMoon = discord.Embed(title=str(data[0][1]),
                             description="",
                             colour=discord.Colour.from_rgb(240, 128, 128),
@@ -27,7 +35,6 @@ class MoonCommand(commands.Cog):
             embedMoon.add_field(name="Min Scrap", value=str(data[0][6]), inline=False)
             embedMoon.add_field(name="Max Scrap", value=str(data[0][7]), inline=False)
         else:
-            # Si la requête a échoué, imprimer le code de statut HTTP
             embedMoon = discord.Embed(title="Le monstre donné n'existe pas")
             
         embedMoon.set_thumbnail(url=data[0][8])

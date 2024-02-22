@@ -1,3 +1,4 @@
+-- Monsters tuples insert.
 INSERT INTO Monsters (id_monster,underscore,name_monster,entry_monster,particularity,strategy,picture_monster) VALUES
 (1,'Eyeless_Dog', 'Eyeless Dog','Eyeless Dogs, colloquially known as just Dogs, are large aggressive pack hunters that roam outdoors.','Blind, Exceptional Hearing','Be Quiet','https://static.miraheze.org/lethalwiki/thumb/1/1e/Eyelessdogsrender.png/150px-Eyelessdogsrender.png'),
 (2,'Baboon_Hawk', 'Baboon Hawk','Baboon Hawks are a primate of the family Cercopithecidae. They are hunchbacked but can stand up to 8 feet on average.','','Try to make trips to/from The Ship in groups. They won t attack players unless they outnumber them','https://static.miraheze.org/lethalwiki/thumb/4/4d/Baboonhawkrender.png/150px-Baboonhawkrender.png'),

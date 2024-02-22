@@ -5,6 +5,10 @@ from discord.ext import commands
 # ■■■■■■■■■■■■■■■■■■■■■■■ Help ■■■■■■■■■■■■■■■■■■■■■■■■■■■■ #
 # ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ #
 class HelpsCommand(commands.Cog):
+    """
+    This class create the "!helps" command.
+    This command show all is possible with the discord bot.
+    """
     def __init__(self, bot : commands.Bot) -> None:
         self.bot = bot
         self.commands = {
@@ -20,7 +24,7 @@ class HelpsCommand(commands.Cog):
 
     @commands.command()
     async def helps(self, ctx):
-        """Help command"""
+        """Helps command"""
         embedHelps = discord.Embed(title="All commands of bot",
                             description="all parameters of commands have undescore instead of space",
                             colour=discord.Colour.from_rgb(240, 128, 128),

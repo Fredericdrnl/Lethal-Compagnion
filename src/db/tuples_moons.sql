@@ -1,3 +1,4 @@
+-- Moons tuples insert
 INSERT INTO Moons (id_moon,name_moon,difficulty,cost_moon,weather,default_layout,min_scrap,max_scrap,picture_moons) VALUES
 (1,'41-Experimentation','B',0,'Rainy, Stormy, Foggy, Flooded, Eclipsed','Factory',8,11,'https://static.miraheze.org/lethalwiki/thumb/b/b8/Experimentation_map_outside.png/405px-Experimentation_map_outside.png'),
 (2,'220-Assurance','D',0,'Rainy, Stormy, Flooded, Eclipsed','Factory',13,16,'https://static.miraheze.org/lethalwiki/thumb/2/2e/Assurancemap.png/405px-Assurancemap.png'),

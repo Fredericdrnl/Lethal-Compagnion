@@ -1,3 +1,4 @@
+-- Store tuples insert
 INSERT INTO Store (id_store,underscore,name_store,entry_store,cost_store,weight_store,conductive_store,battery_store,picture_store) VALUES
 (1, 'Boombox', 'Boombox','Boomboxes are portable music players that emit a selection of five different songs',60,16,'NO','YES','https://static.miraheze.org/lethalwiki/thumb/8/84/Boombox_Icon.png/150px-Boombox_Icon.png'),
 (2, 'Extension Ladder', 'Extension Ladder','The extension ladder can reach as high as nine meters',60,0,'YES','NO','https://static.miraheze.org/lethalwiki/thumb/0/04/Extension_Ladder_Icon.png/150px-Extension_Ladder_Icon.png'),
