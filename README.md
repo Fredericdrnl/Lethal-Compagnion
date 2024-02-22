@@ -96,6 +96,7 @@ Personnellement, le projet de base était un bot Discord quelque chose que je n'
 
 #### 3.1.3 - Ressenti de Tom
 
+N'ayant fait qu'un bot discord auaparavant, avec des fonctionnalités basiques, ce projet était assez nouveau pour moi. J'ai un peu géré le routage puis je me suis concentré sur la BDD et la contenerisation. Le mode de fonctionnement avec Github est quelquechose que je ne fais pas si souvent que ça et tout n'est pas encore tout à fait naturel et compréhensible pour moi. Cependant je trouve que ça rend le projet plus simple à gérer et ça nous permet de collaborer plus facilement.
 
 ## 4 - Conclusion
 
