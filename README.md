@@ -37,7 +37,7 @@ Commande qui permet de :
 
 `- !moon [MoonName] ▶️ Affiche toutes les informations.`
 
-`- !items" ▶️ Montre tous les items avec une description.`
+`- !items ▶️ Montre tous les items avec une description.`
 
 `- !item [ItemName] ▶️ Affiche toutes les informations à propos d'un objet.`
 
