@@ -124,7 +124,8 @@ Le bot Discord permet avec une commande d'avoir les informations sur ce que l'on
     <div align="center">
     <img src = "https://imgs.search.brave.com/17C5XfA_3tgJcADNz_kq2SlhWNsfZpMaSu0aPEXk93I/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/cGNpbnZhc2lvbi5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjMvMTEvTGV0aGFs/LUNvbXBhbnktRm9y/ZXN0LUtlZXBlci1G/ZWF0dXJlZC1JbWFn/ZS5qcGc_dz03NTAm/cmVzaXplPTEyMDAs/Njc1" title = "geant" alt = "geant" width = 200>
     </div>
-
+    
+-----
 `- !moons ▶️ Montre toutes les lunes avec leur difficulté.`
 
 `- !moon [MoonName] ▶️ Affiche toutes les informations.`<br>
@@ -133,7 +134,7 @@ Le bot Discord permet avec une commande d'avoir les informations sur ce que l'on
     <img src = "https://imgs.search.brave.com/6Ri0nq_SU96qMnM0HXCwOjZFs4mLAH1rQ1Ypf96BFbY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9wcm9n/YW1lZ3VpZGVzLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/My8xMS9GZWF0dXJl/ZC1MZXRoYWwtQ29t/cGFueS1ob3ctdG8t/aGVhbC5qcGc_Zml0/PTkwMCw1MDY" title = "moons" alt = "moons" width = 200>
     </div>
 
-
+-----
 `- !items ▶️ Montre tous les items avec une description.`
 
 `- !item [ItemName] ▶️ Affiche toutes les informations à propos d'un objet.`<br>
