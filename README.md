@@ -90,13 +90,13 @@ Nous avons également rencontré des problèmes imprévus qui ont mis à l'épre
 
 #### 3.1.1 - Ressenti de Benjamin
 
-Personnellement, le projet de base était un bot Discord quelque chose que je n'ai jamais fait, j'ai du apprendre 2,3 choses auprès de Frédéric qui connaissait un peu plus le sujet. Concernant la motivation, il s'agissait d'un jeu que j'ai joué et quelque chose qui pourrait être utile j'ai donc voulu réussir et terminer ce projet.
+Personnellement, le projet de base était un bot Discord quelque chose que je n'ai jamais fait, j'ai du apprendre 2,3 choses auprès de Frédéric qui connaissait un peu plus le sujet, j'ai appris plusieurs façon de travailler sur GitHub avec la création de branches et le suivi d'une convention de commit. Concernant la motivation, il s'agissait d'un jeu que j'ai joué et quelque chose qui pourrait être utile j'ai donc voulu réussir et terminer ce projet.
 
 #### 3.1.2 - Ressenti de Frédéric
 
 #### 3.1.3 - Ressenti de Tom
 
-N'ayant fait qu'un bot discord auaparavant, avec des fonctionnalités basiques, ce projet était assez nouveau pour moi. J'ai un peu géré le routage puis je me suis concentré sur la BDD et la contenerisation. Le mode de fonctionnement avec Github est quelquechose que je ne fais pas si souvent que ça et tout n'est pas encore tout à fait naturel et compréhensible pour moi. Cependant je trouve que ça rend le projet plus simple à gérer et ça nous permet de collaborer plus facilement.
+N'ayant fait qu'un bot discord auparavant, avec des fonctionnalités basiques, ce projet était assez nouveau pour moi. J'ai un peu géré le routage puis je me suis concentré sur la BDD et la conteneurisation. Le mode de fonctionnement avec Github est quelque chose que je ne fais pas si souvent que ça et tout n'est pas encore tout à fait naturel et compréhensible pour moi. Cependant je trouve que ça rend le projet plus simple à gérer et ça nous permet de collaborer plus facilement.
 
 ## 4 - Conclusion
 
