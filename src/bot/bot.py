@@ -11,6 +11,7 @@ class LethalCompagnion(commands.Bot):
 
     async def setup_hook(self):
         cogs = ['events.On_ready',
+            'commands.Helps',
             'commands.Item',
             'commands.Items',
             'commands.Monster',   

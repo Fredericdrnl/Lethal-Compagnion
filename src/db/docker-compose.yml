@@ -4,7 +4,7 @@ services:
         image: postgres:latest
         restart: always
         env_file:
-          - ./.env
+          - .env
         environment:
           - POSTGRES_DB=${DB_NAME}
           - POSTGRES_USER=${DB_USER}
@@ -22,6 +22,16 @@ services:
           - ./tuples_moons.sql:/docker-entrypoint-initdb.d/tuples_moons.sql
           - ./tuples_scraps.sql:/docker-entrypoint-initdb.d/tuples_scraps.sql
           - ./tuples_store.sql:/docker-entrypoint-initdb.d/tuples_store.sql
+        networks:
+          - LethalCompagnion
+    api:
+        build: ../api/
+        networks:
+          - LethalCompagnion
+    bot:
+        build: ../bot/
+        networks:
+          - LethalCompagnion
 networks:
   LethalCompagnion:
     driver: bridge
