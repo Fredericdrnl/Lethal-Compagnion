@@ -1,6 +1,7 @@
 version: '3.7'
 services:
     postgres:
+        container_name : postgres
         image: postgres:latest
         restart: always
         env_file:
@@ -25,10 +26,12 @@ services:
         networks:
           - LethalCompagnion
     api:
+        container_name : api
         build: ../api/
         networks:
           - LethalCompagnion
     bot:
+        container_name : bot
         build: ../bot/
         networks:
           - LethalCompagnion

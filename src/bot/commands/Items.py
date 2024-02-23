@@ -12,7 +12,7 @@ class ItemsCommand(commands.Cog):
     @commands.command()
     async def items(self, ctx):
         """Show information of all Items."""
-        response = requests.get("http://127.0.0.1:5000/Items/")
+        response = requests.get("http://172.25.0.2:5000/Items/")
         # Vérifier si la requête a réussi (code de statut HTTP 200)
         if response.status_code == 200:
             data = response.json()

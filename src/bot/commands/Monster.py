@@ -12,7 +12,7 @@ class BestiaryCommand(commands.Cog):
     @commands.command()
     async def monster(self, ctx, monsterName : str):
         """Show information of a Monster."""
-        response = requests.get(f"http://127.0.0.1:5000/Monsters/{monsterName}")
+        response = requests.get(f"http://172.25.0.2:5000/Monsters/{monsterName}")
         # Vérifier si la requête a réussi (code de statut HTTP 200)
         data = response.json()
         if response.status_code == 200:
