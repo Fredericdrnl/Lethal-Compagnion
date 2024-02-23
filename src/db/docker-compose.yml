@@ -1,40 +1,47 @@
 version: '3.7'
 services:
-    postgres:
-        container_name : postgres
-        image: postgres:latest
-        restart: always
-        env_file:
-          - .env
-        environment:
-          - POSTGRES_DB=${DB_NAME}
-          - POSTGRES_USER=${DB_USER}
-          - POSTGRES_PASSWORD=${DB_PASSWORD}
-        logging:
-          options:
-            max-size: 10m
-            max-file: "3"
-        ports:
-          - '${DB_PORT}:5432'
-        volumes: 
-          - ./postgres-data:/var/lib/postgresql/data
-          - ./setup.sql:/docker-entrypoint-initdb.d/setup.sql
-          - ./tuples_monsters.sql:/docker-entrypoint-initdb.d/tuples_monsters.sql
-          - ./tuples_moons.sql:/docker-entrypoint-initdb.d/tuples_moons.sql
-          - ./tuples_scraps.sql:/docker-entrypoint-initdb.d/tuples_scraps.sql
-          - ./tuples_store.sql:/docker-entrypoint-initdb.d/tuples_store.sql
-        networks:
-          - LethalCompagnion
-    api:
-        container_name : api
-        build: ../api/
-        networks:
-          - LethalCompagnion
-    bot:
-        container_name : bot
-        build: ../bot/
-        networks:
-          - LethalCompagnion
+  bot:
+    depends_on:
+      - api
+    container_name: bot
+    build: ../bot/
+    networks:
+      - LethalCompagnion
+  api:
+    depends_on:
+      - postgres
+    ports:
+      - 5000:5000
+    container_name: api
+    build: ../api/
+    networks:
+      - LethalCompagnion
+  postgres:
+    container_name: postgres
+    image: postgres:latest
+    restart: always
+    env_file:
+      - .env
+    environment:
+      - POSTGRES_DB=${DB_NAME}
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+    logging:
+      options:
+        max-size: 10m
+        max-file: "3"
+    ports:
+      - '${DB_PORT}:5432'
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
+      - ./setup.sql:/docker-entrypoint-initdb.d/setup.sql
+      - ./tuples_monsters.sql:/docker-entrypoint-initdb.d/tuples_monsters.sql
+      - ./tuples_moons.sql:/docker-entrypoint-initdb.d/tuples_moons.sql
+      - ./tuples_scraps.sql:/docker-entrypoint-initdb.d/tuples_scraps.sql
+      - ./tuples_store.sql:/docker-entrypoint-initdb.d/tuples_store.sql
+    networks:
+      - LethalCompagnion
+      
 networks:
   LethalCompagnion:
-    driver: bridge
+    name: LethalCompagnion

@@ -12,7 +12,7 @@ class MoonsCommand(commands.Cog):
     @commands.command()
     async def moons(self, ctx):
         """Show information of all Moons."""
-        response = requests.get("http://172.25.0.2:5000/Moons/")
+        response = requests.get("http://api:5000/Moons/")
         # Vérifier si la requête a réussi (code de statut HTTP 200)
         if response.status_code == 200:
             data = response.json()
