@@ -22,3 +22,6 @@ services:
           - ./tuples_moons.sql:/docker-entrypoint-initdb.d/tuples_moons.sql
           - ./tuples_scraps.sql:/docker-entrypoint-initdb.d/tuples_scraps.sql
           - ./tuples_store.sql:/docker-entrypoint-initdb.d/tuples_store.sql
+networks:
+  LethalCompagnion:
+    driver: bridge
