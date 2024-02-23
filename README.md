@@ -78,6 +78,7 @@ Le projet a débuté par une phase de planification détaillée, au cours de laq
 ### 2.2 - Rencontres de problèmes
 
 Le processus de développement s'est globalement bien déroulé. Cependant, nous avons rencontré quelques obstacles techniques, notamment des problèmes de latence et des erreurs de connexion avec l'API pour connecter le bot à la BDD, le problème d'API venait principalement du manque de connaissance sur la création d'une API, ce fut notre première création d'API sur python, ces problèmes ont retardé notre progression.
+Le plus gros problème que nous avons rencontré est du côté de Docker, nous avons cherché pendant plusieurs heures, plusieurs jours pour que les conteneurs "api", "bot" et "postgres" communiquent entre eux. Il s'agissait d'un problème d'accès. Nous avons cherché longtemps cherché mais aucun succès suite à ces triste événements, nous décidions de ne pas les faire communiquer.
 
 ## 3 - Ressenti du Projet
 
